@@ -1,4 +1,4 @@
-  Educmr Mobile App
+  <title>Educmr Mobile App</title>
 
     Introduction
 
