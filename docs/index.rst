@@ -1,4 +1,4 @@
-  <project> v<revision> documentation
+  Educmr mobile App
 
     Introduction
 
