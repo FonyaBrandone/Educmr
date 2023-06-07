@@ -1,4 +1,4 @@
-  <title>Educmr Mobile App</title>
+  <project> v<revision> documentation
 
     Introduction
 
