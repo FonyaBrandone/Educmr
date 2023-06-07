@@ -118,12 +118,30 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 html_theme = 'alabaster'
+
+# Title modification patches:
 html_theme_options = {
     'nav_title': 'Educmr App documentation',
     'globaltoc_depth': 3,
     'globaltoc_collapse': True,
     'globaltoc_includehidden': True,
 }
+
+from docutils import nodes
+from sphinx.application import Sphinx
+from sphinx.environment.collectors.title import TitleCollector
+
+_process_doc = TitleCollector.process_doc
+
+def process_doc(self, app: Sphinx, doctree: nodes.document) -> None:
+    if doctree.traverse(nodes.section):
+        _process_doc(self, app, doctree)
+    else:
+        titlenode = nodes.title()
+        app.env.titles[app.env.docname] = titlenode
+        app.env.longtitles[app.env.docname] = titlenode
+
+TitleCollectorprocess_doc = process_doc
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
