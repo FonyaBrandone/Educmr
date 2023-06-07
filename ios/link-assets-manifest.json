@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/RobotoSlab-Black.ttf",
+      "sha1": "9ad7dd3fe4102c8b75025d86cc354a4be8f08411"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-Bold.ttf",
+      "sha1": "d44fb5d797d528ae11eea4fa3020dc18d5ac0d09"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-ExtraBold.ttf",
+      "sha1": "3d8bc42080c000870712da2c891f682bcfc8bba7"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-ExtraLight.ttf",
+      "sha1": "399732e1c8a62dc2c3ec58416df17a32c0ac1c32"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-Light.ttf",
+      "sha1": "37879805e8980fdca5c6e8f2009932814ef289f9"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-Medium.ttf",
+      "sha1": "bda8a03f58547ddbf50080a7b9f8cf708a984295"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-Regular.ttf",
+      "sha1": "22f5cb26fc40d5fc8ef74d87fbdaae58246ce90f"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-SemiBold.ttf",
+      "sha1": "9c2ceb656caf582db79c8cd1994247ce2027278e"
+    },
+    {
+      "path": "assets/fonts/RobotoSlab-Thin.ttf",
+      "sha1": "7a387165ba2fc62d8daf1bc6f0a3f5622a5492b1"
+    }
+  ]
+}
